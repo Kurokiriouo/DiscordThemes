@@ -1,4 +1,4 @@
-//META{"name":"Discord Reborn-beta","description":"A nice sleek transparent theme.","author":"Jason","version":"3.5"}*//
+//META{"name":"Discord Reborn-beta","description":"A nice sleek transparent theme.","author":"Jason","version":"6.5"}*//
 
 /* BASE.CSS */
 
@@ -8,7 +8,7 @@
 
 /* Variables */
 :root {
-  --theme-version: "6.0";
+  --theme-version: "6.5";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
