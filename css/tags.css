@@ -184,6 +184,26 @@
   background-image: url(https://media2.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
 }
 
+/* panda */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::after {
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::after {
+  background-image: url(https://cdn.discordapp.com/attachments/541827249771642880/542563148637536276/AcclaimedKlutzyHornet-max-1mb.gif);
+}
+
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]::before,
@@ -191,6 +211,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="365990366157078528"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="276918035317784576"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::before {
   content: '';
   color: transparent;
@@ -241,7 +262,10 @@
   background-image: url(https://cdn.discordapp.com/attachments/541876475545124869/541897575020756993/download_8.svg);
 }
 
-
+/* panda */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::before {
+  background-image: url(https://cdn.discordapp.com/attachments/541876475545124869/542561871262121985/download_3.svg);
+}
 
 /* content */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before {
@@ -266,6 +290,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="365990366157078528"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="276918035317784576"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]:hover::before {
   display: block;
   background-color: transparent;
