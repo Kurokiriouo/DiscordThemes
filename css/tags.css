@@ -212,6 +212,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="276918035317784576"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::before {
   content: '';
   color: transparent;
@@ -296,6 +297,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="276918035317784576"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]:hover::before {
   display: block;
   background-color: transparent;
