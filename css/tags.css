@@ -267,6 +267,11 @@
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/pandacross.svg);
 }
 
+/* weest */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]::before {
+  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/weest.svg);
+}
+
 /* content */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before {
   content: 'Monster King';
