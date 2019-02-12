@@ -213,6 +213,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="198318980321116169"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::before {
   content: '';
   color: transparent;
@@ -273,6 +274,11 @@
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/weest.svg);
 }
 
+/* ben */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="198318980321116169"]::before {
+  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/ben.svg);
+}
+
 /* content */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before {
   content: 'Monster King';
@@ -298,6 +304,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="226776770664202240"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185964290732326912"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="198318980321116169"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]:hover::before {
   display: block;
   background-color: transparent;
