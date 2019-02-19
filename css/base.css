@@ -1595,6 +1595,13 @@ pre {
   border-color: transparent !important;
 }
 
+#app-mount .tile-2OwFgW {
+  background-color: var(--secondary-color);
+}
+
+#app-mount .tile-2OwFgW:hover {
+  background-color: var(--primary-color);
+}
   /* 8.l. Text Area */
 .chat-3bRxxu .attachButtonDivider-3Glu60 {
   display: none;
@@ -4375,6 +4382,13 @@ animation: show-status 300ms linear;
     color: #eee;
 }
 
+.moreUsers-1s5Her,
+.playerOverflow-3X56UI {
+  border-radius: var(--roundness);
+  background-color: var(--main-color) !important;
+  color: white;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
@@ -4648,3 +4662,6 @@ div.reply-item {
   }
   
 }
+×
+Drag and Drop
+The image will be downloaded by Fatkun
