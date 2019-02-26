@@ -307,16 +307,6 @@
   background-image: none;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover:before {
-  content: "doink";
-  color: black;
-  text-shadow: -1px 0 white,
-    0 1px white,
-    1px 0 white,
-    0 -1px white !important;
-  background-image: url(https://i.imgur.com/WvsF0pK.png);
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217067165734404096"]:hover::before,
