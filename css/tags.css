@@ -300,13 +300,6 @@
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/ben.svg);
 }
 
-/* content */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before {
-  content: 'Monster King';
-  color: #fff;
-  background-image: none;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217067165734404096"]:hover::before,
