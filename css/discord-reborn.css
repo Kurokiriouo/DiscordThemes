@@ -37,9 +37,13 @@
 1. Backgrund
   1.a. Main Background
   1.b. Transparency
+
 2. User Settings
+
 3. Chat
+
 4. Popouts and Modals
+
 5. @Media Edits
 */
 
@@ -120,6 +124,10 @@
   background: transparent !important;
 }
 
+#app-mount .activityFeed-1C0EmJ {
+  background-color: transparent;
+}
+
 .typeMacOS-3EmCyP.titleBar-AC4pGV {
   background-color: var(--primary-color) !important;
 }
@@ -129,6 +137,7 @@
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
   background-color: var(--secondary-color) !important;
 }
+
 
 
 /* 3. Chat */
@@ -170,7 +179,8 @@
   border-color: var(--quaternary-color) !important;
 }
 
-.select-2TCrqx .Select-menu-outer {
+.select-2TCrqx .Select-menu-outer,
+#app-mount .popout-3G62UL {
   background-color: transparent !important;
   background-attachment: fixed !important;
   background-image: var(--background-image) !important;
@@ -278,7 +288,8 @@
 .metalloriff-changelog-scroller::before,
 .colorPickerCustom-2CWBn2::before,
 .container-VSDcQc::before,
-.toast::before {
+.toast::before,
+#app-mount .popout-3G62UL::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -293,7 +304,8 @@
 .metalloriff-changelog-scroller::before,
 .container-16j22k::before,
 .container-VSDcQc::before,
-.toast::before {
+.toast::before,
+#app-mount .popout-3G62UL::before {
   z-index: -1 !important;
 }
 
