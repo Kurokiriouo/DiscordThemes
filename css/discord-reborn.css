@@ -1,5 +1,4 @@
 /* Imports */
-
 @import url("https://kurokiriouo.github.io/DiscordThemes/css/base.css");
 
 
@@ -120,8 +119,33 @@
 .root-1BQpZw,
 .root-26DmKJ,
 .container-3gCOGc,
-.appMount-3lHmkl .pageWrapper-1PgVDX {
+.appMount-3lHmkl .pageWrapper-1PgVDX,
+.wrapper-1Rf91z {
   background: transparent !important;
+}
+
+#app-mount .banner-1TiK82 .header-2o-2hj {
+  background: var(--background-image) center/cover no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+#app-mount .banner-1TiK82 .header-2o-2hj::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  pointer-events: none;
+}
+
+#app-mount .bannerImage-1jOskm::after {
+  opacity: 0;
+}
+
+#app-mount .header-2o-2hj * {
+  z-index: 1;
 }
 
 #app-mount .activityFeed-1C0EmJ {
@@ -255,6 +279,10 @@
 
 .container-2Yth53 {
   border-radius: 5px;
+}
+
+#app-mount .popout-3G62UL::before {
+  border-radius: 4px;
 }
 
 .userPopout-3XzG_A .header-2BwW8b,
