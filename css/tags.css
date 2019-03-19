@@ -251,6 +251,17 @@
 /* mine */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]::before {
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/deadmau5.svg);
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
 /* memes */
