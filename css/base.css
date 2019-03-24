@@ -1,6 +1,6 @@
 /* Imports */
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300);
-@import "https://kurokiriouo.github.io/DiscordThemes/css/tags.css";
+@import url("https://kurokiriouo.github.io/DiscordThemes/css/tags.css");
 
 
 /* Variables */
@@ -2123,6 +2123,10 @@ pre {
   background-color: var(--main-color);
 }
 
+#app-mount .searchOption-8nCYo-.selected-1r_nkg {
+  background-color: var(--quaternary-color);
+}
+
   /* 10.b. Library */
 .rowWrapperActive-2L7i9f {
   background-color: var(--tertiary-color) !important;
@@ -2197,9 +2201,7 @@ pre {
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI,
 .playerOverflow-2Hf77M,
-.voiceSectionIconWrapper-3YFjHm,
-.voiceSectionGuildImage-2r1uIp, 
-.voiceSectionNoGuildImageWrapper-40qwqb {
+.voiceSectionIconWrapper-3YFjHm {
   background-color: var(--main-color) !important;
   color: white;
 }
@@ -2219,7 +2221,8 @@ pre {
 .bodySection-jqkkIP,
 .row-1bU71H,
 .applicationTile-1Goy1W,
-.itemBackground-2vEldQ {
+.itemBackground-2vEldQ,
+.tileMedia-1q3guD {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2241,7 +2244,8 @@ pre {
 }
 
 .tile-2H4MQG:hover,
-.tile-367QuY:hover {
+.tile-367QuY:hover,
+.tileMedia-1q3guD:hover {
   background-color: var(--secondary-color) !important;
 }
 
@@ -2285,7 +2289,8 @@ pre {
 .price-1ynJAt,
 .entitledHeader-3LRNDT,
 .dot-2Q_mMZ,
-.pulsingEllipsisItem-32hhWL {
+.pulsingEllipsisItem-32hhWL,
+.genreTag-3QLRUJ {
   background-color: var(--main-color) !important;
 }
 
@@ -2459,13 +2464,11 @@ pre {
 
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
-.dragPlaceholder-d9-haY,
+.dragPlaceholder-D9-haY,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after,
 .container-2td-dC.audio-2KA0-x::after,
 .container-2td-dC.video-2jNDI4::after,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
 .dragfix-1wSxtO:active,
 .container-2td-dC .wrapper-2lTRaf,
 .friendsTable-133bsv .friends-column.friends-column-guilds .icon-3o6xvg,
@@ -2512,7 +2515,11 @@ pre {
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI,
 .playerOverflow-2Hf77M,
-.voiceSectionIconWrapper-3YFjHm {
+.voiceSectionIconWrapper-3YFjHm,
+.voiceSectionGuildImage-2r1uIp, 
+.voiceSectionNoGuildImageWrapper-40qwqb,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span {
   border-radius: var(--roundness) !important;
 }
 
