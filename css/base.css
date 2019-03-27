@@ -211,7 +211,10 @@
 .titleCall-_b9o8P {
   height: 46px;
 }
-
+  /* TEMP TITLE BAR FIX*/
+.toolbar-94eLIm {  
+	margin-right: 90px;
+}
   /* 1.b. Mac Main Title Bar*/
 .typeMacOS-3EmCyP.titleBar-AC4pGV { 
 	transform: none; 
