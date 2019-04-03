@@ -5,7 +5,7 @@
 
 /* Variables */
 :root {
-  --theme-version: "6.0";
+  --theme-version: "1.0";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
@@ -848,6 +848,18 @@ color: var(--dnd) !important;
   border-radius: var(--roundness);
 }
 
+.createJoinContainer-2Av064 {
+  margin-bottom: 10px;
+}
+
+.guildsError-b7zR5H {
+  background: transparent !important;
+}
+
+.guildsError-b7zR5H:hover {
+  background: var(--dnd) !important;
+}
+
   /* 4.c. Guilds Add */
 #app-mount .circleIconButton-jET_ig{
   background: transparent;
@@ -1638,7 +1650,8 @@ pre {
   width: 3px;
 }
 
-.embedInner-1-fpTo {
+.embedInner-1-fpTo,
+#app-mount .guildIconImage-3qTk45 {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
   border-radius: 0px;
@@ -2522,7 +2535,8 @@ pre {
 .voiceSectionGuildImage-2r1uIp, 
 .voiceSectionNoGuildImageWrapper-40qwqb,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
+.guildsError-b7zR5H {
   border-radius: var(--roundness) !important;
 }
 
@@ -3994,6 +4008,10 @@ animation: show-status 300ms linear;
   background-color: var(--secondary-color) !important;
 }
 
+#app-mount .player-3zB-0D:hover {
+  background-color: var(--quaternary-color);
+}
+
   /* 17.g. Quick Switcher */
 
 .input-2VB9rf {
@@ -4421,6 +4439,10 @@ animation: show-status 300ms linear;
 .verifiedIcon-2TCIsJ g path:nth-child(2),
 .verifiedIcon-1vpk3S path:nth-of-type(2) {
   fill: var(--main-color) !important;
+}
+
+.verifiedIcon-3oz8wo {
+  color: var(--main-color) !important;
 }
 
 .input-autosize-input:focus,
