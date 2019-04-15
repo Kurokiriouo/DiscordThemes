@@ -3,6 +3,7 @@
     z-index:1;
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE {
     position:absolute;
     width:287% !important;
@@ -21,20 +22,24 @@
     border-radius:0;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R {
     border-top-color:var(--online);
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT {
     border-top-color:var(--idle);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq {
     border-top-color:var(--dnd);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe {
     border-top-color:var(--streaming);
 }
@@ -45,6 +50,15 @@
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] {
     animation:keyframeScaleIn 500ms cubic-bezier(0,0,0,1);
+}
+
+/* Sky */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .status-oxiHuE {
+    background-image:url('https://media.giphy.com/media/HoEiwd5SWgZ3O/giphy.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] {
+    animation:keyframePulseMain 1.5s ease infinite;
+    opacity:.75;
 }
 
 /*KEYFRAMES*/
