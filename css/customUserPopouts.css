@@ -3,6 +3,7 @@
     z-index:1;
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .status-oxiHuE {
     position:absolute;
     width:287% !important;
@@ -21,20 +22,24 @@
     border-radius:0;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .online-2S838R {
     border-top-color:var(--online);
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .idle-3DEnRT {
     border-top-color:var(--idle);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .dnd-1_xrcq {
     border-top-color:var(--dnd);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] + .streaming-2_dnHe {
     border-top-color:var(--streaming);
 }
@@ -52,6 +57,15 @@
     background-image:url('https://media.giphy.com/media/HoEiwd5SWgZ3O/giphy.gif') !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="365990366157078528"] {
+    animation:keyframePulseMain 1.5s ease infinite;
+    opacity:.75;
+}
+
+/* panda */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .status-oxiHuE {
+    background-image:url('https://cdn.discordapp.com/attachments/387469957530648578/567473530455982081/bdjsjs.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] {
     animation:keyframePulseMain 1.5s ease infinite;
     opacity:.75;
 }
