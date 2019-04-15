@@ -1,0 +1,33 @@
+/*//META{"name":"Quiet","description":"Nice simple dark theme that also supports light theme :)","author":"Jason","version":"1.0"}*//**/
+/* YOU NEED BETTER DISCORD INSTALLED FOR THIS TO WORK. DOWNLOAD THE BD INSTALLER HERE: https://github.com/rauenzi/BetterDiscordApp/releases */
+/* YOU CAN FIND THEME INSTALL INSTRUCTIONS AT THE BOTTOM OF THIS FILE */
+
+/* IMPORT CSS FROM GITHUB */
+@import "https://kurokiriouo.github.io/DiscordThemes/css/quiet.css";
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CUSTOMIZABLE COLORS =====
+*/
+:root { 
+ --main-color: #8d2036;
+ --hover-color: #6f182a;
+ }
+
+/* Rounded Server Icons */
+.container-2td-dC {
+    --roundness: 50%
+}
+
+/* Extended Role List */
+.rolesList-22qj2L {
+    max-height: none;
+    overflow-y: none;
+}
+
+/*
+===== TROUBLESHOOTING =====
+PLEASE DM WalkingDude#0808 
+THEME INSTALL INSTRUCTIONS: https://imgur.com/88h6Vcy
+*/
