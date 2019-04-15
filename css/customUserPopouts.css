@@ -91,7 +91,7 @@
     transform: translateY(0)
   }
 }
-@-webkit-keyframes keyframeTropical {
+@-webkit-keyframes keyframeGlow {
   0% {
     -webkit-box-shadow: 0 0 12px 2px rgb(253, 169, 76);
   }
