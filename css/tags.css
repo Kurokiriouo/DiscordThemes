@@ -251,16 +251,16 @@
 
 /* mine */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]::before {
-  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/mau5head.svg);
+  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/jasoncrown.svg);
   content: '';
   color: transparent;
-  height: 31px;
-  width: 25px;
+  height: 18px;
+  width: 18px;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -15px;
-  right: -15px;
+  top: -12px;
+  right: 10px;
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
