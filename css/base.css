@@ -1,11 +1,11 @@
 /* Imports */
 @import "https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300";
 @import "https://kurokiriouo.github.io/DiscordThemes/css/tags.css";
-
+@import "https://kurokiriouo.github.io/DiscordThemes/css/customUserPopouts.css";
 
 /* Variables */
 :root {
-  --theme-version: "1.0";
+  --theme-version: "1.5";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
@@ -19,6 +19,7 @@
   --roundness: 0px;
   --spoiler-blur: 5px;
   --shadow: rgba(0,0,0,.4);
+  --accent: var(--main-color);
 }
 /* Table of Contents
     ======== STATIC ==========
