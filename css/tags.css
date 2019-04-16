@@ -225,6 +225,26 @@
   background-image: url(https://cdn.discordapp.com/attachments/541876475545124869/549674189762854922/giphy.gif);
 }
 
+/* sora */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::after {
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::after {
+  background-image: url(https://i.imgur.com/PKzhYKk.gif);
+}
+
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217067165734404096"]::before,
