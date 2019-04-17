@@ -255,6 +255,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="198318980321116169"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="364300975151906816"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="275747792612229120"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]::before {
   content: '';
   color: transparent;
@@ -330,6 +331,11 @@
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/ben.svg);
 }
 
+/* cubez */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="275747792612229120"]::before {
+  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/cubez.svg);
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="459764783617540097"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217067165734404096"]:hover::before,
@@ -340,6 +346,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="222600098205401089"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="198318980321116169"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="364300975151906816"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="275747792612229120"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="399320463534325782"]:hover::before {
   display: block;
   background-color: transparent;
