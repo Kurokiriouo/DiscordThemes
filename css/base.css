@@ -582,9 +582,17 @@
   background: var(--main-color)
 }
 
-.bda-slist li {
-  background-color: var(--tertiary-color);
-  border-color: var(--quaternary-color);
+#app-mount .bda-slist li {
+  background-color: var(--secondary-color);
+  border-color: var(--tertiary-color);
+  width: 300px;
+}
+
+#app-mount .bda-slist {
+  user-select: text;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .button-mM-y8i {
@@ -1391,7 +1399,7 @@ a,
   color: var(--hover-color) !important;
 }
 
-.messages-3amgkR.scroller-2FKFPG{
+.messages-3amgkR.scroller-2FKFPG {
   padding-bottom: 10px;
 }
 
@@ -2227,6 +2235,17 @@ pre {
 }
 
   /* 10.c. Store */
+  
+#app-mount .gradientOverlayRight-3vMuS8 {
+  background-image: -webkit-gradient(linear,left top,right top,from(transparent),to(var(--quaternary-color)));
+  background-image: linear-gradient(90deg,transparent,var(--quaternary-color));
+}
+
+#app-mount .gradientOverlayLeft-3w159C {
+  background-image: -webkit-gradient(linear,left top,right top,from(var(--quaternary-color)),to(transparent));
+  background-image: linear-gradient(90deg,var(--quaternary-color),transparent);
+}
+
 .itemBackground-2vEldQ::before {
   background: radial-gradient(ellipse at top,transparent,var(--primary-color)),linear-gradient(90deg,var(--primary-color) 0,transparent 40%,transparent 60%,var(--primary-color)),linear-gradient(0deg,var(--primary-color) 10%,transparent 70%) !important;
 }
@@ -2558,6 +2577,14 @@ pre {
   display: none;
 }
 
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
+  width: 5px;
+}
+
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  border-radius: 40px;
+}
 
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
@@ -4616,7 +4643,8 @@ div.reply-item {
     border: none;
 }
 
-.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv {
+.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv,
+.wrapper-1Rf91z.foldercontentopen .scrollerWrap-1IAIlv .scroller-2TZvBN {
     border-top: 2px solid var(--main-color);
     box-sizing: border-box;
     margin-top: 46px !important;
@@ -4626,7 +4654,8 @@ div.reply-item {
   background-color: #666 !important;
 }
 
-.guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
+.guild-1EfMGQ.folder .badge-1GsMF2.folder.count,
+#app-mount .container-2td-dC.folder .badge-3dItlm.folder.count {
   background: var(--main-color) !important;
 }
 
