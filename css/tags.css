@@ -245,6 +245,26 @@
   background-image: url(https://i.imgur.com/PKzhYKk.gif);
 }
 
+/* cubez */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="275747792612229120"]::after {
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="275747792612229120"]::after {
+  background-image: url(http://66.media.tumblr.com/tumblr_lt679ihTAg1qj4vr1o1_500.gif);
+}
+
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310953740645695488"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217067165734404096"]::before,
