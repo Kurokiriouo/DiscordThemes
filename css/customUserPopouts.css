@@ -20,7 +20,7 @@
     -webkit-mask: linear-gradient(black, transparent 60%);
     background-position:0 100%;
     background-size:cover;
-    border-radius:0;
+    border-radius:0 !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="459764783617540097"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="185964290732326912"] + .online-2S838R,
@@ -93,9 +93,15 @@
     100% {opacity:1;}
 }
 @-webkit-keyframes keyframePulseMain {
-  0% {-webkit-box-shadow: 0 0 0 0 var(--accent);}
-  70% {-webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);}
-  100% {-webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);}
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px var(--accent);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
 }
 @keyframes keyframeFallBounce {
   from {
