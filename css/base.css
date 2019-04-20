@@ -3321,45 +3321,38 @@ pre {
 } 
 
   /* 15.i. Tooltips */
-.tooltip-1OS-Ti {
+#app-mount  .tooltip-2QfLtc {
   border-radius: 0px !important;
+  background: var(--main-color);
 }
 
-.tooltip-1OS-Ti {
-  background: var(--main-color) !important;
+#app-mount .tooltipRed-8-9NeP {
+  background-color: var(--dnd);
 }
 
-.tooltip-1OS-Ti.right-KM_vfY:after {
-  border-right-color: var(--main-color) !important;
+#app-mount .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--dnd);
 }
 
-.tooltip-1OS-Ti.top-1pTh1F:after {
-  border-top-color: var(--main-color) !important;
-}
-
-.tooltip-1OS-Ti.left-1wV7VO:after {
-  border-left-color: var(--main-color) !important;
-}
-
-.tooltip-1OS-Ti.bottom-19kp6S:after {
-  border-bottom-color: var(--main-color) !important;
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color);
 }
 
 /* tropix's fade in tooltip anim */
 
-.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY {
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipRight-2JM5PQ {
   animation: fadeFromRight 200ms
 }
 
-.tooltips-FhwIyl .tooltip-1OS-Ti.bottom-19kp6S {
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipBottom-3ARrEK {
   animation: fadeFromBottom 200ms
 }
 
-.tooltips-FhwIyl .tooltip-1OS-Ti.left-1wV7VO {
+.layerContainer-yqaFcK .tooltip-2QfLtc[class*="tooltipLeft-"] {
   animation: fadeFromLeft 200ms
 }
 
-.tooltips-FhwIyl .tooltip-1OS-Ti.top-1pTh1F {
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipTop-XDDSxx{
   animation: fadeFromTop 200ms;
 }
 
@@ -4680,7 +4673,7 @@ div.reply-item {
 }
 
   /* 20.a.9. Detailed Tooltip */
-.tooltips-FhwIyl .dst-tooltip.tooltip-1OS-Ti.right-KM_vfY {
+.layerContainer-yqaFcK .dst-tooltip.tooltip-2QfLtc.tooltipRight-2JM5PQ {
   background-color: var(--main-color) !important;
 }
 
