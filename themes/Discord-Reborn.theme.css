@@ -19,9 +19,11 @@ CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WOR
  }
 
 /* Rounded Server Icons */
-.container-2td-dC {
+.blobContainer-239gwq {
     --roundness: 50%
 }
+
+/* Extended Role List */
 .rolesList-22qj2L {
     max-height: none;
     overflow-y: none;
