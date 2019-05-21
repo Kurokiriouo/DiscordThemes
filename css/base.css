@@ -379,6 +379,11 @@ svg[name="Activity"] {
   border-bottom: 2px solid var(--main-color) !important;
 }
 
+#app-mount .title-3qD0b-.transparent-2ZlE3R {
+  background: transparent !important;
+  border-bottom: 2px solid transparent !important;
+}
+
 .headerBar-UHpsPw.titleCall-_b9o8P {
   border-bottom: none !important;
 }
@@ -1921,6 +1926,10 @@ pre {
 #pluginNotice.notice-2FJMB4 {
   font-size: 14px !important;
   line-height: 38px;
+  height: 38px !important;
+}
+
+#pluginNotice.notice-2FJMB4::before {
   height: 38px !important;
 }
 
@@ -3586,20 +3595,24 @@ pre {
 }
 
   /* 15.o. Dropdown Menu Popout */
-.popout-2sKjHu {
+.popout-2sKjHu,
+#app-mount .css-181m2lf-menu {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
 }
 
-.optionActive-KkAdqq {
+.optionActive-KkAdqq,
+#app-mount .css-12o7ek3-option {
   background-color: var(--main-color) !important;
 }
 
-.optionLabel-2CkCZx {
+.optionLabel-2CkCZx,
+#app-mount .css-181m2lf-menu .css-1ye7vu0 [class*="-option"] {
   border: 1px solid transparent;
 }
 
-.optionNormal-12VR9V:hover {
+.optionNormal-12VR9V:hover,
+#app-mount .css-1gnr91b-option {
   background: transparent !important;
   border-color: var(--hover-color) !important
 }
