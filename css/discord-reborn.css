@@ -30,7 +30,6 @@
     --tertiary-color: rgba(0,0,0,0.2);
     --quaternary-color: rgba(0,0,0,0.5);
   }
-
 /* Table of Contents 
  ============== STATIC ===============
 1. Backgrund
@@ -126,7 +125,9 @@
   .users-i_3-kL,
   #app-mount .container-1r6BKw,
   #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child,
-  #app-mount .users-i_3-kL {
+  #app-mount .users-i_3-kL,
+  #app-mount .footer-1FPmkC,
+  #app-mount .footer-30ewN8 {
   background: transparent !important;
   }
   
@@ -191,6 +192,11 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
+  #app-mount .css-1rckt42-menu {
+    background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), var(--background-image) center/cover no-repeat;
+    background-attachment: fixed !important;
+  }
+
   #app-mount .tierMarkerBackground-3q29am {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/600px 618px no-repeat !important;
     background-attachment: fixed;
@@ -204,7 +210,8 @@
   .userList-1kLH8B,
   #permissions-modal-wrapper #permissions-modal,
   .create-guild-container-new.deprecated .form.deprecated,
-  .toast {
+  .toast,
+  .inner-2VEzy9 .root-SR8cQa {
     background-image: var(--popup-background) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -225,8 +232,13 @@
   .bd-modal-inner,
   #app-mount .contextMenu-HLZMGh,
   #app-mount .monsterModal,
-  #app-mount .popout-3sVMXz .container-jGk-CT {
+  #app-mount .popout-3sVMXz .container-jGk-CT,
+  #app-mount .modal-3v8ziU {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+  }
+
+  #app-mount .content-3CCvMx:before {
+    background-color: var(--quaternary-color);
   }
   
   .container-2Yth53 {
