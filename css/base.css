@@ -91,11 +91,11 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-10. Games Tab, Library, Store and Server Discovery
+10. Games Tab, Library, Store and Server Directory
   10.a. Tab
   10.b. Library
   10.c. Store
-  10.d. Server Discover
+  10.d. Server Directory
 
 11. Avatars
   11.a. Remove Mask
@@ -723,6 +723,10 @@ svg[name="Activity"] {
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bda-slist .bda-footer button {
   background: var(--main-color)
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+  background: var(--quaternary-color);
 }
 
 #app-mount .bda-slist li {
@@ -1481,9 +1485,10 @@ color: var(--dnd) !important;
 
 
 /* 7. Members List */
-
+  /* 7.a. Main Member List */
 .member-3W1lQa {
   border-right: 2px solid transparent;
+  border-radius: 0;
 }
 
 .member-3W1lQa:hover,
@@ -2338,14 +2343,16 @@ pre {
 #app-mount .popout-3G62UL,
 #app-mount .unwrapped-37iUtM,
 #app-mount .inset-GQDQYw,
-#app-mount .recentlyPlayedContainer-2F3MqS {
+#app-mount .recentlyPlayedContainer-2F3MqS,
+#app-mount .wrapped-15rg6t {
   background-color: var(--secondary-color);
 }
 
 #app-mount .wrapper-3rh-14:hover,
 #app-mount .memberListItem-vHCzSI:hover,
 #app-mount .popoutContainer-3WC9HR:hover,
-#app-mount .unwrapped-37iUtM:hover {
+#app-mount .unwrapped-37iUtM:hover,
+#app-mount .wrapped-15rg6t.clickable-nnkAZy:hover {
   background-color: var(--quaternary-color);
 }
 
@@ -2454,7 +2461,9 @@ pre {
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI,
 .playerOverflow-2Hf77M,
-.voiceSectionIconWrapper-3YFjHm {
+.voiceSectionIconWrapper-3YFjHm,
+#app-mount .partyMemberOverflow-1tfvpb,
+#app-mount .overflowPlayerCount-_jrNfw {
   background-color: var(--main-color) !important;
   color: white;
 }
@@ -2491,7 +2500,9 @@ pre {
 .applicationTile-1Goy1W,
 .itemBackground-2vEldQ,
 .tileMedia-1q3guD,
-.iconCircle-1dlYo0 {
+.iconCircle-1dlYo0,
+#app-mount .card-3DjzTQ, 
+#app-mount .cardPlaceholder-1zrbbe {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2556,6 +2567,7 @@ pre {
 
 .bubble-1gL_TN,
 .price-1ynJAt,
+.price-NUANu6,
 .entitledHeader-3LRNDT,
 .dot-2Q_mMZ,
 .pulsingEllipsisItem-32hhWL,
@@ -2577,21 +2589,33 @@ pre {
 }
 
   /* 10.d. Server Directory */
-  .bg-AYqtMd {
-    -webkit-mask: linear-gradient(black, transparent);
-  }
+.bg-AYqtMd {
+  -webkit-mask: linear-gradient(black, transparent);
+}
 
-  #app-mount .loading-17PYl_ {
-    background-color: var(--secondary-color);
-  }
+#app-mount .loading-17PYl_ {
+  background-color: var(--secondary-color);
+}
 
-  #app-mount .emptySearchResults-1ba__I {
-    background: transparent;
-  }
+#app-mount .emptySearchResults-1ba__I {
+  background: transparent;
+}
 
-  #app-mount .wrapper-39oAo3 {
-    background-color: var(--quaternary-color);
-  }
+.searchHelpText-19imBp {
+  margin-bottom: -20px;
+}
+
+#app-mount .wrapper-39oAo3,
+#app-mount .css-1wqqa50-container,
+#app-mount .css-1rckt42-menu,
+#app-mount .pageButton-MknE-_:hover {
+  background-color: var(--quaternary-color);
+}
+
+#app-mount .css-1gnr91b-option {
+  transition: all 200ms ease-in-out;
+  box-shadow: inset 0 0 10px var(--hover-color);
+}
 
 /* 11. Avatars */
   /* 11.a. Remove Mask */
@@ -3497,7 +3521,8 @@ pre {
   background-color: var(--tertiary-color) !important;
 }
 
-.searchBar-1MOL6S {
+.searchBar-1MOL6S,
+#app-mount .container-2XeR5Z {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -3781,7 +3806,8 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e {
-animation: show-status 300ms linear;
+  animation: show-status 300ms linear;
+  border: none;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH div {
@@ -4012,6 +4038,10 @@ animation: show-status 300ms linear;
 }
 
   /* 17.c. Instant Invite Modal */
+#app-mount .modal-3v8ziU {
+  background-color: var(--primary-color);
+}
+
 .inviteRow-2L02ae:hover {
   background-color: var(--tertiary-color) !important;
 }
@@ -4427,12 +4457,24 @@ animation: show-status 300ms linear;
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
 #app-mount .header-Qk7iwL,
-#app-mount .tierInProgress-3mBoXq {
+#app-mount .tierInProgress-3mBoXq,
+#app-mount .barBackground-2EEiLw,
+#app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"],
+#app-mount .boostCount-UFqabz,
+#app-mount .guildGraphicBackground-wbfC17, 
+#app-mount .guildGraphicContainer-_IAetM,
+#app-mount .subscriptionDuration-3WXA_o,
+#app-mount .tierPill-1yRO48 {
   background-color: var(--quaternary-color) !important;
 }
 
+#app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"] {
+  background-image: none !important;
+}
+
 #app-mount .info-3NKfPL,
-#app-mount .tierHeaderLocked-1a2opw {
+#app-mount .tierHeaderLocked-1a2opw,
+#app-mount .tierHeaderLocked-1s2JJz {
   background-color: var(--secondary-color);
 }
 
@@ -4678,6 +4720,7 @@ animation: show-status 300ms linear;
 
 .botTagRegular-2HEhHi,
 .aka-1mqp34,
+#app-mount .akaBadge-1M-1Gw,
 .wanderingCubesItem-WPXqao,
 #pubslayer .ui-tab-bar-item.selected,
 .bd-server-card.bd-server-card-pinned:after,
@@ -4725,11 +4768,14 @@ animation: show-status 300ms linear;
 .verified-2-ja4L g path:nth-child(2),
 .verifiedIcon-2TCIsJ g path:nth-child(2),
 .verifiedIcon-1vpk3S path:nth-of-type(2),
-#app-mount .iconTierNone-3xOaeG {
+#app-mount .iconTierNone-3xOaeG,
+.verified-1eC5dy path[fill="#4f545c"],
+.verifiedIcon-3oz8wo path[fill="#7289da"] {
   fill: var(--main-color) !important;
 }
 
-.verifiedIcon-3oz8wo {
+.verifiedIcon-3oz8wo,
+.verified-1eC5dy {
 color: var(--main-color) !important;
 }
 
