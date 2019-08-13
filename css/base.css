@@ -1013,12 +1013,17 @@ color: var(--dnd) !important;
   border-radius: var(--roundness);
 }
 
-#app-mount .dragPlaceholder-D9-haY {
+#app-mount .dragPlaceholder-D9-haY,
+#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
   background-color: transparent;
   border: 2px dashed var(--primary-color);
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+}
+
+#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
+border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
 .createJoinContainer-2Av064 {
@@ -1888,6 +1893,7 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"],
 [style*="color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
   color: white;
 }
@@ -2706,7 +2712,8 @@ pre {
   width: 32px;
 }
 
-.wrapper-3t9DeA[class*="wrapper"][style*="height: 80px"] rect[mask*="svg-mask-status"] {
+.wrapper-3t9DeA[class*="wrapper"][style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
   height: 78px;
   width: 80px;
 }
@@ -2787,9 +2794,10 @@ pre {
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-  width: 80px;
-  height: 80px;
+  width: 79.5px;
+  height: 77.5px;
   transition: opacity 200ms ease-in-out;
+  margin: 1px 1px 1px 1px;
 }
 
   /* 11.c. Typing */
@@ -2797,6 +2805,7 @@ pre {
   fill: rgba(0, 0, 0, .5);
   x: 0 !important;
   y: 0 !important;
+  rx: var(--roundness);
   height: 32px;
   width: 32px;
   opacity: 1;
@@ -2860,7 +2869,7 @@ pre {
 .authedApp-mj2Hmd,
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
-.menu-Sp6bN1,
+#app-mount .menu-Sp6bN1,
 #permissions-modal-wrapper .role-side {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
@@ -3446,11 +3455,17 @@ pre {
 
 .roleRemoveIcon-2-TeGW {
   display: block;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
 }
 
 .role-2irmRk:hover .roleCircleButton-377y0l {
   transition: width 0.2s;
   width: 22px;
+}
+
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW {
+  opacity: 1;
 }
 
 .addButtonIcon-1NMJ8u {
@@ -3580,6 +3595,7 @@ pre {
   transform-origin: 50% -10%;
   z-index: 99;
   overflow: visible !important;
+  box-shadow: none;
 }
 
 .menu-Sp6bN1 {
@@ -3850,6 +3866,11 @@ pre {
   -webkit-mask-repeat: no-repeat;
 }
 
+  /* 15.q. Guild Popout */
+#app-mount .guildPopout-3CgKqR {
+  background-color: var(--quaternary-color);
+}
+
 /* 16. Menus */
   /* 16.a. Context Menu */
 .contextMenu-HLZMGh {
@@ -3991,16 +4012,23 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
-  position: absolute;
-  display: block;
-  width: 100%;
-  margin-top: -30px;
-  height: 30px;
   background-color: var(--primary-color);
+  width: 100%;
+  transition: all 200ms ease-in;
+  z-index: -1;
+  position: absolute;
+  height: 35px;
+  margin-top: -35px;
+  box-shadow: 0 2px 20px var(--shadow) !important;
+  transform: translateX(0) translateY(100%) translateZ(0);
+  animation: show-custom 300ms ease forwards 400ms;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
+  color: var(--main-color);
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child .justifyStart-2NDFzi {
@@ -4601,7 +4629,8 @@ pre {
 }
 
   /* 17.l. Generic Modal */
-  #app-mount .modal-yWgWj- {
+  #app-mount .modal-yWgWj-, 
+  #app-mount .root-1gCeng {
     background-color: var(--primary-color);
   }
 
@@ -4653,7 +4682,8 @@ pre {
 #app-mount .guildGraphicBackground-wbfC17, 
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
-#app-mount .tierPill-1yRO48 {
+#app-mount .tierPill-1yRO48,
+#app-mount .info-3UT5_W {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -4839,11 +4869,10 @@ pre {
 }
 
 @keyframes show-custom {
-  from {
-    transform: translateY(100%) translateX(0%) translateZ(0px);
-  }
   to {
     opacity: 1;
+    transform: translateY(0) translateX(0) translateZ(0px);
+    pointer-events: all;
   }
 }
 
