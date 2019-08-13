@@ -127,10 +127,17 @@
   #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child,
   #app-mount .users-i_3-kL,
   #app-mount .footer-1FPmkC,
-  #app-mount .footer-30ewN8 {
+  #app-mount .footer-30ewN8,
+  .searchBar-1MOL6S, 
+  #app-mount .container-2XeR5Z,
+  #app-mount .footer-3rDWdC {
   background: transparent !important;
   }
   
+  #app-mount .footer-3rDWdC {
+    box-shadow: none;
+  }
+
   #app-mount .bannerImage-1jOskm::after {
     opacity: 0;
   }
@@ -211,7 +218,8 @@
   #permissions-modal-wrapper #permissions-modal,
   .create-guild-container-new.deprecated .form.deprecated,
   .toast,
-  .inner-2VEzy9 .root-SR8cQa {
+  .inner-2VEzy9 .root-SR8cQa,
+  #app-mount .modal-3c3bKg .inner-1ilYF7 .root-SR8cQa {
     background-image: var(--popup-background) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -233,7 +241,8 @@
   #app-mount .contextMenu-HLZMGh,
   #app-mount .monsterModal,
   #app-mount .popout-3sVMXz .container-jGk-CT,
-  #app-mount .modal-3v8ziU {
+  #app-mount .modal-3v8ziU,
+  #app-mount .modal-yWgWj- {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
@@ -345,6 +354,20 @@
   
   .need-help-modal .header h1::after {
     left: -220px;
+  }
+
+  #app-mount .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
+    transform: translateY(100%) translateX(-100%) translateZ(0px);
+    background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  @keyframes show-custom {
+    to {
+      opacity: 1;
+      transform: translateY(0) translateX(-100%) translateZ(0px);
+      pointer-events: all;
+    }
   }
   
   /* 5. @Media Edits */
