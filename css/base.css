@@ -86,6 +86,7 @@
   8.n. Notification Bar
   8.o. Search Results
   8.p. Video Calling
+  8.q. Streaming
 
  9. Friends List
   9.a. Main Friends List
@@ -784,6 +785,10 @@ svg[name="Activity"] {
 
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
   color: var(--main-color) !important;
+}
+
+.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"] {
+  color: white !important;
 }
 
   /* 3.d. Buttons, Switches, and Bars */
@@ -2012,6 +2017,10 @@ pre {
   top: 68px;
 }
 
+.notice-2FJMB4.BDFDB-notice {
+  top: 46px;
+}
+
 .notice-2FJMB4 .textLink-27KAGV {
   font-size: 0px !important;
   line-height: 18px;
@@ -2071,6 +2080,10 @@ pre {
   height: 36px;
   right: 100px;
   transition: all .2s linear;
+}
+
+#app-mount .noticePremiumGrandfathered-ollUxF {
+  background: transparent;
 }
 
 .notice-2FJMB4 .button-1MICoQ,
@@ -2182,6 +2195,35 @@ pre {
   width: 1px;
   border-left: 2px solid var(--main-color);
   z-index:10;
+}
+
+  /* 8.q. Streaming */
+#app-mount .videoControls-3glNbo {
+  padding: 0px;
+}
+
+#app-mount .bottomControls-UTyHwG,
+#app-mount .headerTitle-1EzOnI {
+  width: unset;
+  padding: 0px 16px 16px;
+}
+
+#app-mount .headerTitle-1EzOnI {
+  padding-top: 4px;
+}
+
+#app-mount .root-25RxKh.miniPlayer-3Ms77e .container-1r6BKw {
+  background: transparent;
+  border-bottom: none;
+}
+
+#app-mount .root-25RxKh.miniPlayer-3Ms77e .container-1r6BKw {
+  background: transparent;
+  border-bottom: none;
+}
+
+#app-mount .miniPlayer-3Ms77e .videoControls-3glNbo {
+  padding: 8px;
 }
 
 /* 9. Friends List */
@@ -2742,6 +2784,12 @@ pre {
 #app-mount .wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[y="22"] {
   height: 30px !important;
   width: 32px !important;
+}
+
+#app-mount .wrapper-3t9DeA[class*="avatar"i][style*="height: 40px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[class*="avatar"i][style*="height: 40px"] rect[y="28"] {
+  height: 38px !important;
+  width: 40px !important;
 }
 
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] rect[mask*="svg-mask-status"],
