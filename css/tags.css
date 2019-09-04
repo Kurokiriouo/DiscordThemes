@@ -380,6 +380,10 @@
   filter: drop-shadow(0 0 3px #fddfaa);
 }
 
+.wrapper-3t9DeA[style="width: 80px; height: 80px;"]::before {
+  transform: scale(1.6) translate(0, -3px);
+  filter: none;
+}
 
 @font-face {
   font-family: "BMTicons";
