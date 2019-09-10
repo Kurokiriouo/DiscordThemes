@@ -26,7 +26,6 @@
     --tertiary-color: #eeeeee;
     --quaternary-color: #dbdbdb;
   }
-
 /* Table of Contents
  1. Title Bar
 
@@ -132,7 +131,8 @@
 
 /* 5. Channels */
 .channels-Ie2l6A, 
-.container-PNkimc {
+.container-PNkimc,
+#app-mount .privateChannels-1nO12o {
   background-color: var(--primary-color)
 }
 
@@ -146,8 +146,9 @@
 }
 
 /* 6. Account Area */
-.container-2Thooq {
-  background: var(--secondary-color) !important;
+#app-mount .panels-j1Uci_ {
+  background-color: var(--secondary-color);
+  border-bottom: transparent;
 }
 
 
@@ -265,6 +266,13 @@
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
 #permissions-modal-wrapper .modal-body {
   background-color: var(--primary-color) !important;
+}
+
+#app-mount .footer-1FPmkC,
+#app-mount .footer-30ewN8,
+#app-mount .content-3CCvMx:before {
+  background-color: var(--primary-color);
+  box-shadow: inset 0 1px 0 var(--quaternary-color);
 }
 
 .quickswitcher-3JagVE,
