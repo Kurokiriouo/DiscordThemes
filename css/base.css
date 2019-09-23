@@ -609,6 +609,10 @@ svg[name="Activity"] {
 
   /* 3.b. General Content Area */
 
+#app-mount .contentRegionScroller-26nc1e {
+  background: transparent;
+}
+
 .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
   padding: 20px 40px 80px;
 }
@@ -640,6 +644,10 @@ svg[name="Activity"] {
 
 .sidebarScrollable-1qPI87 {
   width: 24%;
+}
+
+.scroller-305q3I {
+  background: transparent;
 }
 
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -943,6 +951,10 @@ color: var(--dnd) !important;
  /* 4.a. Main Guilds Wrapper */
 .platform-osx .guildsWrapper-5TJh6A,
 .platform-osx .wrapper-1Rf91z { margin-top: 0px !important; }
+
+.scroller-2TZvBN {
+  contain: initial;
+}
 
 .guildsWrapper-5TJh6A,
 .wrapper-1Rf91z {
@@ -1582,6 +1594,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 
 /* 7. Members List */
   /* 7.a. Main Member List */
+.membersWrap-2h-GB4 {
+  z-index: 1;
+}
+
 .member-3W1lQa {
   border-right: 2px solid transparent;
   border-radius: 0;
@@ -1664,6 +1680,7 @@ a,
 
 .messages-3amgkR.scroller-2FKFPG {
   padding-bottom: 10px;
+  background: transparent;
 }
 
 .containerCompactBounded-cYR5cW:last-child {
@@ -2263,6 +2280,10 @@ pre {
 
 /* 9. Friends List */
   /* 9.a. Main Friends List */
+
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+  background: transparent;
+}
 
 .friendsTable-133bsv .friendsRow-2yicud:hover {
   background: var(--quaternary-color) !important;
@@ -2976,7 +2997,7 @@ pre {
 }
 
 .sidebar-2K8pFh {
-  z-index: 1;
+  z-index: 2;
 }
 
 .members-1998pB {
@@ -3164,6 +3185,10 @@ pre {
 
 #app-mount .themedPopout-25DgLi .header-SsaQ8X {
   border-radius: 0px;
+}
+
+#app-mount .messagesPopout-24nkyi {
+  background: transparent;
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW {
@@ -3488,6 +3513,10 @@ pre {
   border-bottom-color: #d1d1d3 !important
 }
 
+#app-mount .bodyInner-245q0L {
+  background: transparent;
+}
+
 .body-3iLsc4, 
 .footer-1fjuF6 {
   background-color: var(--primary-color) !important;
@@ -3691,9 +3720,9 @@ pre {
 }
 
   /* 15.g. Server Settings */
-.layer-v9HyYc[style*="; top: "][id*="popout_"] {
-  left: 75px !important;
-  top: 46px !important;
+  .layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
+  left: -25px !important;
+  top: -10px !important;
   width: 230px !important;
   height: auto;
   margin: 0px;
@@ -4987,10 +5016,10 @@ pre {
 
 @keyframes popoutanim {
   0% {
-    transform: scale(0);
+    transform: scale(0) perspective(1px);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) perspective(1px);
   }
 }
 
