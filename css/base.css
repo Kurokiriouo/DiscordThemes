@@ -2558,6 +2558,12 @@ pre {
 }
 
   /* 10.b. Library */
+
+#app-mount .scroller-1IIF0A,
+#app-mount .scroller-5bBood {
+  background: transparent;
+}
+
 .rowWrapperActive-2L7i9f {
   background-color: var(--tertiary-color) !important;
 }
@@ -2643,7 +2649,10 @@ pre {
 }
 
   /* 10.c. Store */
-  
+#app-mount .scroller-9moviB {
+  background: transparent;
+}
+
 #app-mount .gradientOverlayRight-3vMuS8 {
   background-image: -webkit-gradient(linear,left top,right top,from(transparent),to(var(--quaternary-color)));
   background-image: linear-gradient(90deg,transparent,var(--quaternary-color));
@@ -4674,6 +4683,10 @@ pre {
 }
 
   /* 17.g. Quick Switcher */
+
+#app-mount .scroller-zPkAnE {
+  background: transparent;
+}
 
 .input-2VB9rf {
   background-color: var(--quaternary-color) !important;
