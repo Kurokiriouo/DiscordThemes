@@ -176,6 +176,10 @@
 
 /* 1. Title Bar */
   /* 1.a. Main Title Bar */
+#app-mount .bg-h5JY_x {
+  background: transparent !important;
+}
+
 .titleBar-AC4pGV {
   transform: translateY(-6px);
   height: 0px;
@@ -2059,6 +2063,7 @@ pre {
 
   /* 8.n. Notification Bar */
 .notice-2FJMB4,
+.BDFD-notice,
 #pluginNotice {
   font-size: 0px !important;
   line-height: 18px;
@@ -2067,10 +2072,13 @@ pre {
   width: 100%;
   transition: all .2s linear;
   background-color: transparent !important;
+  z-index: 999999999 !important;
+  box-shadow: none !important;
 }
 
 .notice-2FJMB4,
-.notice-2FJMB4.BDFDB-notice {
+.notice-2FJMB4.BDFDB-notice,
+#pluginNotice {
   top: 46px;
 }
 
@@ -2095,30 +2103,34 @@ pre {
   z-index: -1;
   transition: all 200ms ease-in-out;
   background-color: dodgerblue;
+  box-shadow: var(--elevation-low);
 }
 
 .noticeDanger-7u-yT9::before {
   background-color: var(--dnd);
 }
 
-#pluginNotice.notice-2FJMB4 {
+.BDFD-notice.notice-2FJMB4:hover,
+#pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
-  height: 38px !important;
 }
 
-#pluginNotice.notice-2FJMB4::before {
+.BDFD-notice.notice-2FJMB4:hover::before,
+#pluginNotice:hover::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
+.BDFD-notice.notice-2FJMB4:hover,
 #pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
 }
 
-.notice-2FJMB4:hover::before {
+.notice-2FJMB4:hover::before,
+#pluginNotice:hover::before {
   height: 38px !important;
 }
 
@@ -2128,10 +2140,11 @@ pre {
 }
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice.notice-2FJMB4 .dismiss-SCAH9H {
+.BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
+#pluginNotice:hover .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
-  right: 100px;
+  margin-right: 100px;
   transition: all .2s linear;
 }
 
@@ -4121,12 +4134,6 @@ pre {
   padding: 0;
 }
 
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="z-index: 1001;"] {
-  left: 70px !important;
-  width: 241px !important;
-  border-radius: 0;
-}
-
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 {
   position: fixed;
   left: -10px !important;
@@ -4683,7 +4690,6 @@ pre {
 }
 
   /* 17.g. Quick Switcher */
-
 #app-mount .scroller-zPkAnE {
   background: transparent;
 }
@@ -5452,11 +5458,20 @@ div.reply-item {
     z-index:2;
     transition:all 300ms ease;
   }
-  
+
   .members-1998pB:hover{
     animation:member 300ms ease;
     transform:translate(0px);
     box-shadow:4px 0 10px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .members-1998pB .avatar-3uk_u9 {
+    margin-left: 12px;
+    transition: all 300ms ease;
+  }
+  
+  .members-1998pB:hover .avatar-3uk_u9 {
+    margin-left: 0px;
   }
 
   .members-1998pB:hover::after{ 
@@ -5520,7 +5535,7 @@ div.reply-item {
   .header-toolbar button.active{display:none;}
 
   
-  .chat-3bRxxu .content-yTz4x3>.spacer-1fA9zc.vertical-V37hAW {
+  .chat-3bRxxu .chatContent-a9vAAp {
     margin-right:-145px !important;
     z-index:1
   }
