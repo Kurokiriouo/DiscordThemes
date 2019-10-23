@@ -2110,30 +2110,19 @@ pre {
   background-color: var(--dnd);
 }
 
-.BDFD-notice.notice-2FJMB4:hover,
-#pluginNotice:hover {
-  font-size: 14px !important;
-  line-height: 38px;
-}
-
+.notice-2FJMB4:hover::before,
 .BDFD-notice.notice-2FJMB4:hover::before,
-#pluginNotice:hover::before {
+#pluginNotice::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
 .BDFD-notice.notice-2FJMB4:hover,
-#pluginNotice:hover {
+#pluginNotice {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
 }
-
-.notice-2FJMB4:hover::before,
-#pluginNotice:hover::before {
-  height: 38px !important;
-}
-
 
 .notice-2FJMB4 .dismiss-SCAH9H {
   opacity: 0;
@@ -2141,7 +2130,7 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 .BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice:hover .dismiss-SCAH9H {
+#pluginNotice .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
@@ -5379,6 +5368,26 @@ div.reply-item {
 .layerContainer-yqaFcK .dst-tooltip.tooltip-2QfLtc.tooltipRight-2JM5PQ {
   background-color: var(--main-color) !important;
 }
+
+  /* 20.a.10. Ghost Ping */
+  #ghostping-panel {
+    top: 48px !important;
+    height: calc(100% - 48px) !important;
+    width: 100% !important;
+    padding: 30px !important;
+    box-sizing: border-box;
+  }
+  
+  #ghostping-panel[style*="opacity: 0.9"] {
+    opacity: 1 !important;
+  }
+  
+  #ghostping-panel #ghostping-panel-close-button ~ div {
+    background-color: var(--quaternary-color) !important;
+    width: calc(100% - 80px) !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 20px var(--shadow) !important;
+  }
 
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
