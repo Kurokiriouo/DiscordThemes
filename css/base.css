@@ -3895,6 +3895,14 @@ pre {
   border-top-color: var(--dnd);
 }
 
+#app-mount .tooltip-2QfLtc.tooltipGreen-WdeQwd {
+  background: var(--online);
+}
+
+#app-mount .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--online);
+}
+
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   border-top-color: var(--main-color);
 }
@@ -4173,7 +4181,7 @@ pre {
 .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
   background-color: var(--primary-color);
   width: 100%;
-  transition: color 200ms ease-in;
+  transition: color 200ms ease-in, background-color 200ms ease-in;
   z-index: -1;
   position: absolute;
   height: 35px;
@@ -4183,6 +4191,16 @@ pre {
   animation: show-custom 300ms ease forwards 400ms;
   opacity: 0;
   pointer-events: none;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.clearStatus-2hmUqc,
+.customStatus-1KPfFb {
+  width: fit-content;
+  margin: 0;
 }
 
 .customStatusContentIcon-2sionu {
@@ -4192,7 +4210,7 @@ pre {
 }
 
 .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7):hover {
-  background-color: var(--primary-color) !important;
+  background-color: var(--quaternary-color) !important;
   color: var(--main-color);
 }
 
