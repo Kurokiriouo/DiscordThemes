@@ -804,7 +804,7 @@ svg[name="Activity"] {
 }
 
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"],
-.side-8zPYf6 .item-PXvHYJ[style*=" color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
   color: white !important;
 }
 
@@ -939,7 +939,9 @@ color: var(--dnd) !important;
 }
 
 .tier1Banner-1B_WXY,
-.container-2Zlzt0{
+.container-2Zlzt0,
+.detailsBlock-FoDTGA,
+.premiumSubscriptionAccountCredit-25i0tQ {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2651,7 +2653,8 @@ pre {
 }
 
   /* 10.c. Store */
-#app-mount .scroller-9moviB {
+#app-mount .scroller-9moviB,
+#app-moung .scroller-1JpcIc {
   background: transparent;
 }
 
@@ -4865,7 +4868,9 @@ pre {
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
 #app-mount .tierPill-1yRO48,
-#app-mount .info-3UT5_W {
+#app-mount .info-3UT5_W,
+.guildSubscriptionSlots-JPXXvN,
+#app-mount .ctaBar-2UsjF2 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -4875,11 +4880,19 @@ pre {
 
 #app-mount .info-3NKfPL,
 #app-mount .tierHeaderLocked-1a2opw,
-#app-mount .tierHeaderLocked-1s2JJz {
+#app-mount .tierHeaderLocked-1s2JJz,
+.guildHeader-3nh5RK {
   background-color: var(--secondary-color);
 }
 
-#app-mount .background-3xPPFc {
+.cardWrapper-2Min21 {
+  background: transparent;
+}
+
+
+#app-mount .perk-2WeBWW,
+#app-mount .background-3xPPFc,
+#app-mount .gemIndicatorContainer-2jdECl {
   color: var(--quaternary-color);
 }
 
