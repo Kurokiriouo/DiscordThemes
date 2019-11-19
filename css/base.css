@@ -3581,6 +3581,7 @@ pre {
 
 .roleName-32vpEy {
   margin: 0 4px;
+  z-index: -1px;
 }
 
 .roleCircleButton-377y0l {
@@ -4857,6 +4858,8 @@ pre {
 
   /* 17.m. Gift Nitro Modal & Nitro Boost */
 .option-1l2vXE,
+.table-39R0Oe,
+#app-mount .perk-2WeBWW,
 #app-mount .tierNoneContainer-3hhK3h,
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
@@ -4891,7 +4894,7 @@ pre {
 }
 
 
-#app-mount .perk-2WeBWW,
+
 #app-mount .background-3xPPFc,
 #app-mount .gemIndicatorContainer-2jdECl {
   color: var(--quaternary-color);
