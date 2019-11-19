@@ -137,6 +137,7 @@
 }
 
 /* badges */
+.wrapper-3t9DeA[user_by_bdfdb="459764783617540097"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="310953740645695488"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="217067165734404096"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="437629282949398528"]::before,
@@ -165,7 +166,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="459764783617540097"]::before {
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/jasoncrown.svg);
   transition: filter .2s ease-in-out;
-  transform: scale(1.1);
 }
 
 /* memes */
