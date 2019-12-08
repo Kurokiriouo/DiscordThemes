@@ -30,7 +30,6 @@
     --tertiary-color: rgba(0,0,0,0.2);
     --quaternary-color: rgba(0,0,0,0.5);
   }
-
 /* Table of Contents 
  ============== STATIC ===============
 1. Backgrund
@@ -152,13 +151,16 @@
     background-color: transparent;
   }
   
-  .typeMacOS-3EmCyP.titleBar-AC4pGV {
+  .typeMacOS-3EmCyP.titleBar-AC4pGV,
+  .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: var(--primary-color) !important;
   }
   
   
   /* 2. User Settings */
-  .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP,
+  .uploadModal-2ifh8j .footer-3mqk7D,
+  .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx .inner-zqa7da {
     background-color: var(--secondary-color) !important;
   }
   
@@ -177,7 +179,6 @@
   }
 
   /* 4. Popouts & Modals */
-  
   .colorPickerCustom-2CWBn2 {
     border-color: var(--quaternary-color) !important;
   }
@@ -222,6 +223,18 @@
   #app-mount .tierMarkerBackground-3q29am {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/600px 618px no-repeat !important;
     background-attachment: fixed;
+  }
+
+  .emojiPicker-3m1S-j, 
+  .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
+  .diversitySelector-tmmMv0 .popout-2nUePc,
+  #app-mount .uploadModal-2ifh8j {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+  }
+
+  .emojiPicker-3m1S-j .categories-1feg4n,
+  .infoBar-U6oBFk {
+    background: var(--tertiary-color);
   }
   
   .userPopout-3XzG_A,
@@ -371,9 +384,8 @@
     left: -220px;
   }
 
-  .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
+  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
-    color: rgba(255, 255, 255, 0.4);
   }
   
   /* 5. @Media Edits */
