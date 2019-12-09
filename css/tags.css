@@ -137,18 +137,18 @@
 }
 
 /* badges */
-.wrapper-3t9DeA[user_by_bdfdb="459764783617540097"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="310953740645695488"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="217067165734404096"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="437629282949398528"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="276918035317784576"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="226776770664202240"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="185964290732326912"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="222600098205401089"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="198318980321116169"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="364300975151906816"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="275747792612229120"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="399320463534325782"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="459764783617540097"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="310953740645695488"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="217067165734404096"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="437629282949398528"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="276918035317784576"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="226776770664202240"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="185964290732326912"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="222600098205401089"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="198318980321116169"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="364300975151906816"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="275747792612229120"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="399320463534325782"]::after {
   content: '';
   color: transparent;
   height: 15px;
