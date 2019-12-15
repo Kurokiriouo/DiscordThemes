@@ -2005,6 +2005,16 @@ pre {
   display: none;
 }
 
+.attachWrapper-1_D-pj,
+.form-2fGMdU {
+  border-top: none;
+  border-right: none;
+}
+
+.scrollableContainer-38zsVD {
+  border-radius: 0px;
+}
+
 .chat-3bRxxu .attachButton-1UjEWA {
   margin: 5px 10px;
 }
@@ -3766,7 +3776,7 @@ pre {
   top: -9px !important;
   width: 230px !important;
   height: auto;
-  margin: 0px;
+  margin: -1px;
   -ms-transform: none !important;
   transform: none !important;
   position: absolute;
