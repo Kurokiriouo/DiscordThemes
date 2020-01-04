@@ -429,7 +429,7 @@ svg[name="Activity"] {
 
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   margin-top: -58px;
-  width: 70px;
+  width: 72px;
   margin-left: 2px;
   position: absolute;
   z-index: 2;
@@ -1748,7 +1748,7 @@ a,
 }
 
 .messagesWrapper-3lZDfY .containerCozy-jafyvG:last-child {
-  padding-top: 15px !important;
+  padding-top: 15px 0px 28px!important;
 }
 
 .wrapper-FtzxDk.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.wrapper-2h3Puq.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.alignEnd-1D6PQi.spacer-1fA9zc {
@@ -2003,6 +2003,10 @@ pre {
   /* 8.l. Text Area */
 .chat-3bRxxu .attachButtonDivider-3Glu60 {
   display: none;
+}
+
+.buttons-3JBrkn {
+  padding: 5px;
 }
 
 .attachWrapper-1_D-pj,
@@ -3255,7 +3259,7 @@ pre {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
-  margin-top: 1px;
+  margin-top: 2px;
   background-color: var(--primary-color);
 }
 
@@ -3778,7 +3782,7 @@ pre {
   /* 15.g. Server Settings */
   .layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
   left: -25px !important;
-  top: -9px !important;
+  top: -10px !important;
   width: 230px !important;
   height: auto;
   margin: -1px;
