@@ -1,0 +1,110 @@
+/* ======= SPECIAL TAGS ========= */
+/* badges */
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]::after {
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+
+/* on hover */
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]:hover::after {
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 6px 10px !important;
+  height: auto;
+  width: auto !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  right: unset !important;
+  left: calc(100% - 13px) !important;
+  bottom: -6px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+/* My friends and my borders */
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]::before{
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, --user-roundness, 50px) !important;
+}
+
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]:hover::before {
+  border-radius: var(--roundness, --user-roundness, 50px) !important;
+}
+
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]::before ,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]::before {
+  background-image: url(https://i.imgur.com/dCof31I.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]::before ,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]::before {
+  background-image: url(https://media2.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
+  background-size: 150%;
+  }
+
+
+
+
+/* ===== FRIENDOS ===== */
+/* mine */
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]::after ,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]::after {
+  background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/jasoncrown.svg);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="299009343960121344"]:hover::after ,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="299009343960121344"]:hover::after {
+  filter: drop-shadow(0 0 3px #0e0d0d);
+}
+
+/* sky */
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="437629282949398528"]::after ,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="437629282949398528"]::after {
+  background-image: url(https://cdn.discordapp.com/attachments/471188285641981972/542173215397642240/download_10.svg);
+  transform: scale(1.1);
+}
