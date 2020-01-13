@@ -66,3 +66,9 @@
 	--user-background: url('https://i.imgur.com/GmKQG0x.gif');
 }
 
+/*lucifer*/
+
+[user_by_bdfdb*="605514546249072679"],
+[aria-label*="605514546249072679,"] {
+	--user-background: url('https://i.giphy.com/media/FWtVYDHIxgGgE/source.gif');
+}

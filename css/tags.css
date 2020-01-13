@@ -1,3 +1,80 @@
+@charset "UTF-8";
+
+:root {
+  --mc: var(--main-color);
+}
+
+.avatar-17mtNa:hover {
+  opacity: 1;
+}
+
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+  overflow: visible;
+}
+
+.wrapper-3t9DeA::after {
+  color: rgba(136, 197, 255, 0.5);
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: BMTicons;
+  pointer-events: none;
+  display: inline-block !important;
+}
+
+.wrapper-3t9DeA:not(.avatar-SmRMf2):hover::after {
+  font-family: "Whitney", "Helvetica";
+  --main-color: #000;
+  background-color: var(--main-color);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 3000000;
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  width: auto;
+  opacity: 1;
+  box-sizing: border-box;
+  white-space: nowrap;
+  right: unset;
+  left: calc(100% - 13px);
+  bottom: -6px;
+}
+
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::after{
+  display: none !important;
+}
+
+
+/* ========= START OF USER TAGS ============== */
+
+  /* before hover */
+.wrapper-3t9DeA[user_by_bdfdb="605514546249072679"]::after ,
+.wrapper-3t9DeA[data-user-id="605514546249072679"]::after {
+  content: "}";
+}
+
+
+  /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="605514546249072679"]:hover::after ,
+.wrapper-3t9DeA[data-user-id="605514546249072679"]:hover::after {
+  content: 'Luci';
+  --main-color: #800080;
+}
+
+
 /* ======= SPECIAL TAGS ========= */
 /* badges */
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="310953740645695488"]::after,
@@ -278,4 +355,86 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="275747792612229120"]::after ,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="275747792612229120"]::after {
   background-image: url(https://i.imgur.com/m2shpbj.png);
+}
+
+
+
+/* ======= TAG ANIMATIONS ========= */
+.wrapper-3t9DeA[user_by_bdfdb="605514546249072679"]:hover::after,
+.wrapper-3t9DeA[data-user-id="605514546249072679"]:hover::after {
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+
+
+
+
+/* ---- keyframes ---- */
+@keyframes fallBounce { /* 1s */
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes scaleSpin { /* .4s */
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
 }
