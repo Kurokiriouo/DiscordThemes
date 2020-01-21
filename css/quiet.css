@@ -65,7 +65,8 @@
 
 
 /* 1. Title Bar */
-.appMount-3VJmYg {
+#app-mount,
+.app-2rEoOp {
   background-color: var(--quaternary-color) !important;
 }
 

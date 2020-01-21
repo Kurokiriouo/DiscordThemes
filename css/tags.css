@@ -13,7 +13,7 @@
 }
 
 .wrapper-3t9DeA::after {
-  color: rgba(136, 197, 255, 0.5);
+  color: var(--main-color, var(--mc, rgb(var(--BG-tint-colour, 114, 137, 218))));
   font-size: 13px;
   position: absolute;
   bottom: 0;
