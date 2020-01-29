@@ -2172,6 +2172,19 @@ pre {
   line-height: 38px;
 }
 
+.noticePremiumTier1-3Zywvl {
+  background-image: none;
+}
+
+.noticePremium-12Zvj9 .premiumIcon-2lve6h {
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+}
+
+.noticePremium-12Zvj9:hover .premiumIcon-2lve6h {
+  transform: scale(1);
+}
+
 .notice-2FJMB4::before {
   content: '';
   position: absolute;
@@ -3036,6 +3049,77 @@ pre {
   margin: 1px 1px 1px 1px;
 }
 
+foreignObject[mask*="mobile"] {
+  overflow: visible !important;
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O .content-3QAtGj,
+.member-3-YXUe .content-3QAtGj {
+  max-width: 120px
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::before,
+.privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::after {
+  left: 165px;
+  height: 20px;
+  width: 20px;
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O .children-gzQq2t {
+  margin-left: 20px;
+}
+
+foreignObject[mask*="mobile"]::before,
+foreignObject[mask*="mobile"]::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  background: rgba(0,0,0,.4);
+  top: 50%;
+  left: 170px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .6;
+}
+
+foreignObject[mask*="mobile"]::after {
+  background: var(--online);
+  mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+  -webkit-mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+}
+
+.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::before,
+.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::after {
+  display: none;
+}
+
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::after,
+.modal-3c3bKg foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::after {
+  top: -19px;
+  left: unset;
+  right: -85px;
+  height: 35px;
+  width: 35px;
+  opacity: 1;
+  transform: none;
+}
+
+.modal-3c3bKg foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::after {
+  top: -34px;
+  right: -500px;
+}
+
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::before {
+  border-radius: 0px;
+  border-bottom-left-radius: 25%;
+  background: rgba(0, 0, 0, .7)
+}
+
   /* 11.c. Typing */
 #app-mount .wrapper-3t9DeA[style*="height: 32px"] foreignObject+svg+rect[width="25"] {
   fill: rgba(0, 0, 0, .5);
@@ -3124,10 +3208,12 @@ pre {
 
 
 /* 13. Roundness */
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.guild-1EfMGQ .guildInner-3DSoA4,
+#app-mount foreignObject {
   border-radius: 0 !important;
 }
 
+#app-mount .acronym-2mOFsV,
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .dragPlaceholder-D9-haY,
@@ -3189,15 +3275,21 @@ pre {
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
 .guildsError-b7zR5H,
 .base-PmTxvP,
-#app-mount foreignObject,
 #app-mount .avatar-3elDyV,
 .avatar-3bWpYy, 
 .clickableAvatar-1wQpeh, 
-.emptyUser-7txhlW {
+.emptyUser-7txhlW,
+#app-mount .acronym-2mOFsV,
+#app-mount .wrapper-1BJsBx,
+#app-mount .wrapper-3t9DeA foreignObject .avatar-VxgULZ,
+#app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig {
   border-radius: var(--roundness) !important;
 }
 
-
+#app-mount .wrapper-1BJsBx {
+  overflow: hidden;
+}
 
 
 
