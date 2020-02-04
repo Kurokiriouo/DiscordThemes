@@ -430,8 +430,8 @@ svg[name="Activity"] {
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   margin-top: -58px;
   width: 72px;
-  margin-left: 2px;
-  position: absolute;
+  position: sticky;
+  top: -58px;
   z-index: 2;
   height: 46px;
 }
@@ -1009,12 +1009,7 @@ color: var(--dnd) !important;
 }
 
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
-  padding: 10px 0 20px 0 !important;
-}
-
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv { 
-  margin-top: 48px !important;
+  padding: 58px 0 20px 0 !important;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
@@ -1777,6 +1772,10 @@ a,
   margin-top: 55px !important;
 }
 
+.wrapper-2aW0bm {
+  background: var(--quaternary-color) !important;
+}
+
   /* 8.c Blocked Messages */
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
   background: var(--tertiary-color) !important;
@@ -1811,18 +1810,19 @@ a,
 }
 
   /* 8.e. Chat Dividers */
-.chat-3bRxxu .divider-3gKybi {
+.chat-3bRxxu .divider-JfaTT5 {
   height: 28px;
   background-color: transparent;
   margin: 10px 0px;
+  border: none;
 }
 
-.friends-table .messages-3amgkR .divider:not(.red) span,
-.messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) span {
+.friends-table .messages-3amgkR .divider:not(.isUnread-3Ef-o9) span,
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-JfaTT5:not(.isUnread-3Ef-o9) span {
   opacity: 1;
 }
 
-.chat-3bRxxu .divider-3gKybi>span {
+.chat-3bRxxu .divider-JfaTT5>span {
   color: #a0a0a0 !important;
   border-radius: 3px;
   position: relative;
@@ -1837,13 +1837,17 @@ a,
   box-sizing: border-box !important;
 }
 
-.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr>span {
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9>span {
   color: var(--main-color) !important;
   background-color: var(--quaternary-color) !important;
   border-radius: 3px;
   justify-content: center;
   left: 0px;
-  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.unreadPillCapStroke-7rkHbg {
+  display: none;
 }
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
@@ -2030,6 +2034,10 @@ pre {
   display: none;
 }
 
+.channelTextArea-2VhZ6z {
+  background: transparent;
+}
+
 .toolbar-2bjZV7 {
   background-color: var(--quaternary-color);
 }
@@ -2065,6 +2073,7 @@ pre {
 .chat-3bRxxu .attachButton-1UjEWA,
 .attachButton-2WznTc {
   margin: 5px 10px;
+  height: 100%;
 }
 
 .chat-3bRxxu .attachButtonPlus-rUdX-B {
@@ -2094,6 +2103,14 @@ pre {
   border-radius: 0px;
 }
 
+.form-2fGMdU {
+  padding: 0;
+}
+
+.form-2fGMdU:before {
+  display: none;
+}
+
 .chat-3bRxxu .channelTextArea-rNsIhG {
   margin: 0px 0 0px;
   padding: 0;
@@ -2119,7 +2136,7 @@ pre {
   transform-origin: bottom left;
   -ms-transform: scale(1);
   transform: scale(1);
-  width: auto;
+  width: fit-content;
   display: -webkit-box;
   padding-right: 20px;
   padding-top: 0px;
@@ -2130,6 +2147,7 @@ pre {
   transition: all 200ms ease;
   text-overflow: ellipsis;
   z-index: 5;
+  overflow: hidden;
 }
 
 .typing-2GQL18 .text-1y-e8- {
@@ -2377,94 +2395,34 @@ pre {
 /* 9. Friends List */
   /* 9.a. Main Friends List */
 
-.friendsTable-133bsv .friendsTableBody-1ZhKif {
+.peopleList-3c4jOR,
+.nowPlayingColumn-2sl4cE {
   background: transparent;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud:hover {
-  background: var(--quaternary-color) !important;
+#app-mount .container-1D34oG {
+  background: var(--primary-color) !important;
 }
 
-.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
-  background: transparent !important
+.peopleListItem-2nzedh:hover,
+.wrapper-3D2qGf,
+.emptyCard-1RJw8n {
+  background: var(--tertiary-color);
 }
 
-#friends .tab-bar .tab-bar-item:hover:not(.selected) {
-  background-color: var(--tertiary-color) !important;
-}
-
-.tabBar-1E2ExX .primarySelected-3uHKZn {
-  color: var(--main-color);
-}
-
-.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .friendsTableAdd-1w2_qZ .wrapper-1cBijl {
-  background-color: transparent !important;
+#app-mount .inset-3sAvek {
+  background: var(--secondary-color);
 }
 
 /* 9.b. Action Buttons */
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-  position: relative;
+.actionButton-uPB8Fs {
+  background: var(--quaternary-color);
 }
 
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 svg {
-  position: relative;
-  z-index: 1;
+.actionButton-uPB8Fs.highlight-Lf97TE {
+  background: var(--main-color);
+  color: white;
 }
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  pointer-events: none;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(.actionDeny-18IZiW)::before {
-  background-color: var(--online);
-  opacity: 0.7;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(.actionDeny-18IZiW):hover:before {
-  background-color: var(--online);
-  opacity: 1;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {
-  background-color: transparent !important;;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW::before,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu+.friendsAction-__WNE9::before {
-  background-color: var(--dnd);
-  opacity: 0.7;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover::before,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu+.friendsAction-__WNE9:hover::before {
-  background-color: var(--dnd);
-  opacity: 1;
-}
-
-.tabBar-1E2ExX .item-3HpYcP {
-  border-radius: 0px;
-  transition: all .2s ease-in-out;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover {
-  background-color: var(--hover-color);
-  border-color: var(--hover-color) !important;
-}
-
-.tabBar-1E2ExX .primary-3j8BhM {
-  background-color: var(--main-color) !important;
-}
-
-.tabBar-1E2ExX .primary-3j8BhM:hover {
-  background-color: var(--hover-color) !important;
-}
-
 
 
 /* 10. Games Activity, Library, Store, and Server Directory */
@@ -3109,7 +3067,7 @@ foreignObject[mask*="mobile"]::after {
 
 .modal-3c3bKg foreignObject[mask*="mobile"]::before,
 .modal-3c3bKg foreignObject[mask*="mobile"]::after {
-  top: -34px;
+  top: -20px;
   right: -500px;
 }
 
@@ -3167,7 +3125,8 @@ foreignObject[mask*="mobile"]::after {
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
 .title-3qD0b-,
 .headerBar-UHpsPw,
-.elevationBorderHigh-2WYJ09 {
+.elevationBorderHigh-2WYJ09,
+.form-2fGMdU .inner-MADQqc {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -3192,7 +3151,8 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .menu-Sp6bN1,
 #permissions-modal-wrapper .role-side,
 .sidebar-2K8pFh,
-.inner-MADQqc {
+.inner-MADQqc,
+.peopleColumn-29fq28 {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
@@ -3254,12 +3214,7 @@ foreignObject[mask*="mobile"]::after {
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,
 .guildIconEmptyBackground-14tfYf,
 .guildsError-3cFMtY,
-.avatar-large, 
-.avatar-profile, 
-.avatar-small, 
-.avatar-xlarge, 
-.avatar-xsmall, 
-.avatar-xxlarge,
+.avatar-1BDn8e,
 .avatarUploaderInner-3UNxY3,
 .icon-3o6xvg,
 .gameIcon-gg34Dz,

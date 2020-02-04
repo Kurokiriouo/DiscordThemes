@@ -124,7 +124,6 @@
   .players-1zg2l8,
   .users-i_3-kL,
   #app-mount .container-1r6BKw,
-  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child,
   #app-mount .users-i_3-kL,
   #app-mount .footer-1FPmkC,
   #app-mount .footer-30ewN8,
@@ -138,7 +137,8 @@
   #app-mount .sidebar-2K8pFh,
   .scrollableContainer-38zsVD,
   .scrollableContainer-2NUZem,
-  .appMount-3lHmkl, body {
+  .appMount-3lHmkl, body,
+  .channelTextArea-rNsIhG {
   background: transparent !important;
   }
   
@@ -172,9 +172,9 @@
   /* 3. Chat */
   .searchResultsWrap-2DKFzt,
   .searchPopout-1vUlP3,
-  #app-mount .container-16j22k {
-    background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat !important;
-    background-attachment: fixed;
+  #app-mount .container-16j22k,
+  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .listItemWrapper-3X98Pc {
+    background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
 
   .container-1YxwTf .inner-MADQqc {
@@ -410,4 +410,12 @@
   background-size: cover, cover;
   background-position: center, center;
   background-attachment: initial, fixed;
+}
+
+.lookGhost-2Fn_0-::before {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), var(--background-image) center/cover no-repeat fixed;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91::before {
+  opacity: .9;
 }
