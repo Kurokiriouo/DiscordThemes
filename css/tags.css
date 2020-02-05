@@ -228,7 +228,7 @@
 /* badges */
 /* ===== FRIENDOS ===== */
 /* mine */
-.avatar-1BDn8e[src*="299009343960121344"]::after {
+.avatar-1BDn8e[src*="299009343960121344"] ~ span::after {
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/jasoncrown.svg);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
