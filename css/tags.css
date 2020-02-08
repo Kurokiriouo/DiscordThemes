@@ -92,8 +92,8 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -33px;
-  left: 51px;
+  bottom: -29px;
+  left: 48px;
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
