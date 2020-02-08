@@ -5,7 +5,7 @@
 
 /* Variables */
 :root {
-  --theme-version: "1.0";
+  --theme-version: "1.5";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
@@ -617,6 +617,14 @@ svg[name="Activity"] {
   -ms-flex-pack: end;
   flex: 0;
   z-index: 1;
+}
+
+.info-1VyQPT::before {
+  content: var(--theme-name) " " var(--theme-version);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--main-color);
 }
 
   /* 3.b. General Content Area */
@@ -1776,6 +1784,10 @@ a,
   background: var(--quaternary-color) !important;
 }
 
+.scroller-3sQKXg:after {
+  height: 15px;
+}
+
   /* 8.c Blocked Messages */
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
   background: var(--tertiary-color) !important;
@@ -1837,7 +1849,8 @@ a,
   box-sizing: border-box !important;
 }
 
-.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9>span {
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9:not(.hasContent-1cNJDh)>span,
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh {
   color: var(--main-color) !important;
   background-color: var(--quaternary-color) !important;
   border-radius: 3px;
@@ -1846,6 +1859,38 @@ a,
   padding: 10px 0;
 }
 
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh span {
+  background: transparent;
+  color: var(--main-color) !important;
+}
+
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.unreadPill-2HyYtt {
+  margin-top: 14px;
+  margin-right: 5px;
+  height: 100%;
+  width: fit-content !important;
+  padding-left: 0px;
+}
+
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.unreadPill-2HyYtt::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.content-1o0f9g {
+  text-align: center;
+  padding: 0;
+  width: fit-content !important;
+}
+
+.unreadPillCap-3_K2q2,
 .unreadPillCapStroke-7rkHbg {
   display: none;
 }
@@ -1948,6 +1993,7 @@ pre {
   box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
   left: auto !important;
   animation: slide-up .7s cubic-bezier(.4, 0, 0, 1), opacity .7s ease;
+  padding-bottom: 0px;
 }
 
 .chat-3bRxxu .jumpToPresentBar-9P20AM:before {
@@ -2068,6 +2114,10 @@ pre {
 .scrollableContainer-38zsVD,
 .scrollableContainer-2NUZem {
   border-radius: 0px;
+}
+
+.form-2fGMdU .inner-MADQqc {
+  display: box;
 }
 
 .chat-3bRxxu .attachButton-1UjEWA,
@@ -3889,7 +3939,6 @@ foreignObject[mask*="mobile"]::after {
   top: -10px !important;
   width: 230px !important;
   height: auto;
-  margin: -1px;
   -ms-transform: none !important;
   transform: none !important;
   position: absolute;
