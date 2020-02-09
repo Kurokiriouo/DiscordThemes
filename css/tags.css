@@ -232,6 +232,8 @@
   background-image: url(https://kurokiriouo.github.io/DiscordThemes/assets/jasoncrown.svg);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
 }
 
 .avatar-1BDn8e[src*="299009343960121344"]:hover + span::after {
