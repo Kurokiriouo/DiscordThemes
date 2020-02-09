@@ -244,6 +244,8 @@
 .avatar-1BDn8e[src*="437629282949398528"] + span::after {
   background-image: url(https://cdn.discordapp.com/attachments/471188285641981972/542173215397642240/download_10.svg);
   transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
 }
 
 /* memes */
