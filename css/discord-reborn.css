@@ -281,7 +281,10 @@
   #app-mount .monsterModal,
   #app-mount .popout-3sVMXz .container-jGk-CT,
   #app-mount .modal-3v8ziU,
-  #app-mount .modal-yWgWj- {
+  #app-mount .modal-yWgWj-,
+  .contentWrapper-2txmjs,
+  .emojiPicker-3PwZFl,
+  .focusLock-Ns3yie .root-1gCeng {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
