@@ -171,6 +171,10 @@
   
   
   /* 3. Chat */
+  #app-mount .iconMask-3b8GzQ {
+    background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
+  }
+  
   .searchResultsWrap-2DKFzt,
   .searchPopout-1vUlP3,
   #app-mount .container-16j22k,
@@ -239,7 +243,9 @@
   .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
   .diversitySelector-tmmMv0 .popout-2nUePc,
   #app-mount .uploadModal-2ifh8j,
-  #app-mount .modalRoot-LW89o7 {
+  #app-mount .modalRoot-LW89o7,
+  .styleFixed-sX-yHV,
+  .styleFlexible-wGDiIL {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
