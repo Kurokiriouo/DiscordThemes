@@ -12,10 +12,16 @@ CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WOR
 ===== CUSTOMIZABLE COLORS AND IMAGES =====
 */
 :root {
-  --main-color: #682666;
-  --hover-color: #DE84DB;
-  --background-image: url(https://cdn.discordapp.com/attachments/471188285641981972/532048550528548874/0ghA0tOh.jpeg);
-  --popup-background: url(https://cdn.discordapp.com/attachments/471188285641981972/532048550528548874/0ghA0tOh.jpeg);
+  --roundness: 50px; /* edit roundness of icons from 0px to 50px */
+  --main-color: #682666; /* Main Color */ 
+  --hover-color: #DE84DB; /* Hover Color */
+  --home-color: #eee; /* Change home icon color */
+  --home-size: 24px; /* size of the home icon */
+  --shadow: rgba(0,0,0,.4); /* change to darken lighten, or set to transparent */
+  --background-image: url(https://cdn.discordapp.com/attachments/471188285641981972/532048550528548874/0ghA0tOh.jpeg); /* change background */
+    --background-blur: 0px; /* Main Background Blur */
+  --popup-background: url(https://cdn.discordapp.com/attachments/471188285641981972/532048550528548874/0ghA0tOh.jpeg); /* Background for popups and modals */
+    --background-darkness: 0.75; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
  }
 
 /* Rounded Server Icons */
