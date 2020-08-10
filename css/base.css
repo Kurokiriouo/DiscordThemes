@@ -92,11 +92,12 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-10. Games Tab, Library, Store and Server Directory
+10. Extra Tabs
   10.a. Tab
   10.b. Library
   10.c. Store
   10.d. Server Directory
+  10.e. Community Settings
 
 11. Avatars
   11.a. Remove Mask
@@ -2492,7 +2493,7 @@ pre {
   color: white !important;
 }
 
-/* 10. Games Activity, Library, Store, and Server Directory */
+/* 10. Extra Tabs */
   /* 10.a Activity*/
 .card-7JP0BX,
 .article-3kb3qm,
@@ -2981,6 +2982,30 @@ pre {
   color: white;
 }
 
+  /* 10.e. Community Settings */
+  .welcomeChannel-1rFrIO {
+    background-color: var(--primary-color);
+  }
+  
+  .upsellFooter-ZYsio_,
+  .developerPortalCtaWrapper-2XNafh,
+  .analyticsCard-qckucw,
+  #app-mount .card-3_CqkU,
+  #app-mount .iconMask-30Tvqs,
+  .container-2w0lh0,
+  .previewContainer-1SS3uO {
+    background-color: var(--secondary-color);
+  }
+  
+  .upsellContainer-L9xv7w {
+    background-color: var(--tertiary-color);
+  }
+  
+  .header-2Y0-A-,
+  .enableContainer-6E-puu {
+    background-color: var(--quaternary-color);
+  }
+  
 /* 11. Avatars */
   /* 11.a. Remove Mask */
 .mask-3OgeRz,
