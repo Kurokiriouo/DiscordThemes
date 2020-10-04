@@ -2217,6 +2217,7 @@ pre {
 
 .notice-2FJMB4,
 .BDFD-notice,
+.notice-3bPHh-,
 #pluginNotice {
   font-size: 0px !important;
   line-height: 18px;
@@ -2257,6 +2258,7 @@ pre {
 }
 
 .notice-2FJMB4,
+.notice-3bPHh-,
 .notice-2FJMB4.BDFDB-notice,
 #pluginNotice {
   top: 46px;
@@ -2285,7 +2287,9 @@ pre {
   transform: scale(1);
 }
 
-.notice-2FJMB4::before {
+.notice-2FJMB4::before,
+.notice-3bPHh-::before,
+#pluginNotice::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2305,12 +2309,14 @@ pre {
 
 .notice-2FJMB4:hover::before,
 .BDFD-notice.notice-2FJMB4:hover::before,
+.notice-3bPHh-:hover::before,
 #pluginNotice::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
 .BDFD-notice.notice-2FJMB4:hover,
+.notice-3bPHh-:hover,
 #pluginNotice {
   font-size: 14px !important;
   line-height: 38px;
@@ -2323,7 +2329,7 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 .BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice .dismiss-SCAH9H {
+#pluginNotice .closeButton-3cJIM4 {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
