@@ -385,9 +385,15 @@ svg[name="Activity"] {
 
 .title-3qD0b-,
 .header-2o-2hj,
-.headerBar-UHpsPw {
+.headerBar-UHpsPw,
+.container-1taM1r {
   box-shadow: none;
   border-bottom: 2px solid var(--main-color) !important;
+}
+
+.container-1taM1r {
+  height: 46px;
+  background-color: var(--quaternary-color);
 }
 
 #app-mount .title-3qD0b-.transparent-2ZlE3R {
@@ -765,9 +771,14 @@ svg[name="Activity"] {
 .cardPrimaryEditable-3KtE4g,
 .authedApp-mj2Hmd,
 .wrapper-3UweLa,
-.descriptionBox-1EKQKL {
+.descriptionBox-1EKQKL,
+.bumpBox-1r5p3c {
   background: var(--quaternary-color) !important;
   border: none;
+}
+
+.closeIcon-tEzaUY {
+  color: var(--main-color);
 }
 
 .theme-dark .card-FDVird:before,
@@ -1245,6 +1256,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   border-radius: 0px;
 }
 
+.container-3w7J-x {
+  background-color: transparent;
+}
+
   /* 5.b. Light Theme Recolor*/
 
 .theme-light .icon-1KK5se,
@@ -1319,19 +1334,24 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
   /* 5.d. Channels */
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
-#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
+.modeSelected-346R90 .content-1x5b-n, 
+.modeSelected-346R90:hover .content-1x5b-n,
+.containerDefault--pIXnN:hover .content-1x5b-n {
   background-color: transparent;
 }
 
-.wrapper-1ucjTd {
+.containerDefault--pIXnN {
   border-left: 2px solid transparent;
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ {
+.containerDefault--pIXnN.selected-3LIHYU {
   background-color: var(--quaternary-color);
   border-left-color: var(--main-color);
+}
+
+.containerDefault--pIXnN:hover {
+  background-color: var(--secondary-color);
+  border-left-color: var(--hover-color);
 }
 
 #app-mount .wrapper-pZmgj4 {
