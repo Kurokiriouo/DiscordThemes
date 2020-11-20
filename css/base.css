@@ -396,6 +396,10 @@ svg[name="Activity"] {
   background-color: var(--quaternary-color);
 }
 
+.clickable-25tGDB .header-2V-4Sw:hover {
+  background-color: transparent;
+}
+
 #app-mount .title-3qD0b-.transparent-2ZlE3R {
   background: transparent !important;
   border-bottom: 2px solid transparent !important;
@@ -2528,6 +2532,21 @@ pre {
 #app-mount .item-3T2z1R {
   background: var(--quaternary-color);
   border-color: var(--quaternary-color);
+}
+
+#app-mount .item-3T2z1R.allowSelected-25S_i5 {
+  background-color: var(--online);
+  border-color: var(--online);
+}
+
+#app-mount .item-3T2z1R.denySelected-1mh2mZ {
+  background-color: var(--dnd);
+  border-color: var(--dnd);
+}
+
+#app-mount .item-3T2z1R.passthroughSelected-1Eq0Kl {
+  background-color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
 }
 
 #app-mount .item-3T2z1R.selectorButtonSelected-t5V9On {
@@ -5637,7 +5656,8 @@ foreignObject[mask*="mobile"]::after {
 
 .emptyChannelIcon-3IXV5M,
 .card-1yV8cG,
-.icon-1Itzco {
+.icon-1Itzco,
+#app-mount .header-2bNvm4 {
   background-color: var(--quaternary-color);
 }
 
