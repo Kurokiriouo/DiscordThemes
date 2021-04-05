@@ -56,46 +56,46 @@
 
 /*J*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="299009343960121344"],
-.wrapper-3t9DeA [aria-label*="299009343960121344,"] {
+[user_by_bdfdb*="299009343960121344"]:not(img),
+[aria-label*="299009343960121344,"]:not(img) {
 	--user-background: url('https://i.imgur.com/dwJyV36.gif');
 }
 
 
 /*Sky*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="437629282949398528"],
-.wrapper-3t9DeA [aria-label*="437629282949398528,"] {
+[user_by_bdfdb*="437629282949398528"]:not(img),
+[aria-label*="437629282949398528,"]:not(img) {
 	--user-background: url('https://media.giphy.com/media/HoEiwd5SWgZ3O/giphy.gif');
 }
 
 
 /*panda*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="185964290732326912"],
-.wrapper-3t9DeA [aria-label*="185964290732326912,"] {
+[user_by_bdfdb*="185964290732326912"]:not(img),
+[aria-label*="185964290732326912,"]:not(img) {
 	--user-background: url('https://cdn.discordapp.com/attachments/387469957530648578/567473530455982081/bdjsjs.gif');
 }
 
 
 /*cubez*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="275747792612229120"],
-.wrapper-3t9DeA [aria-label*="275747792612229120,"] {
+[user_by_bdfdb*="275747792612229120"]:not(img),
+[aria-label*="275747792612229120,"]:not(img) {
 	--user-background: url('http://66.media.tumblr.com/d52faaa4e304f1efd543084128530914/tumblr_mqox3sevH81relaado1_500.gif');
 }
 
 
 /*tjay*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="361436348210741248"],
-.wrapper-3t9DeA [aria-label*="361436348210741248,"] {
+[user_by_bdfdb*="361436348210741248"]:not(img),
+[aria-label*="361436348210741248,"]:not(img) {
 	--user-background: url('https://i.imgur.com/GmKQG0x.gif');
 }
 
 /*lucifer*/
 
-.wrapper-3t9DeA [user_by_bdfdb*="605514546249072679"],
-.wrapper-3t9DeA [aria-label*="605514546249072679,"] {
+[user_by_bdfdb*="605514546249072679"]:not(img),
+[aria-label*="605514546249072679,"]:not(img) {
 	--user-background: url('https://i.giphy.com/media/FWtVYDHIxgGgE/source.gif');
 }
