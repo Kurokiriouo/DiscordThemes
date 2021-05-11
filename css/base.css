@@ -167,6 +167,8 @@
     20.a.8. Personal Pins
     20.a.9. Detailed Tooltip
     20.a.10 Ghost Ping
+    20.a.11 Display Servers to Channels
+    20.a.12 Permissions Viewer
   
   20.b. Addon Optimization
     20.b.1. Custom Popouts
@@ -825,13 +827,19 @@ svg[name="Activity"] {
 }
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
-.bda-slist .bda-footer button,
-.bd-switch.bd-switch-checked {
+.bda-slist .bda-footer button{
   background: var(--main-color)
 }
 
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
-.bd-switch {
+.bd-switch input:checked+.bd-switch-body {
+  --switch-color: var(--main-color);
+}
+
+.bd-switch-body {
+  --switch-color: var(--quaternary-color);
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
   background: var(--quaternary-color);
 }
 
@@ -2455,12 +2463,15 @@ pre {
   width: 100%;
 }
 
-.notice-2FJMB4 .dismiss-SCAH9H {
+.notice-2FJMB4 .closeButton-3cJIM4,
+.notice-3bPHh- .closeButton-3cJIM4 {
   opacity: 0;
 }
 
-.notice-2FJMB4:hover .dismiss-SCAH9H,
-.BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
+.notice-2FJMB4:hover .closeButton-3cJIM4,
+.BDFD-notice.notice-2FJMB4:hover .closeButton-3cJIM4,
+.notice-3bPHh-:hover .closeButton-3cJIM4,
+.BDFD-notice.notice-3bPHh-:hover .closeButton-3cJIM4,
 #pluginNotice .closeButton-3cJIM4 {
   opacity: 1;
   height: 36px;
@@ -6011,6 +6022,10 @@ color: var(--main-color) !important;
   opacity: .3;
 }
 
+#bd-pub-li {
+  display: none;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
@@ -6120,6 +6135,11 @@ div.reply-item {
   /* 20.a.11. Display Servers to Channels */
   .DSAC-styled .guilds-1SWlCJ:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child {
     margin-top: -42px !important;
+  }
+
+  /* 20.a.12 Permissions Viewer */
+  #permissions-modal-wrapper .callout-backdrop {
+    z-index: 999;
   }
 
 /* 20.b. Addon Optimization */
