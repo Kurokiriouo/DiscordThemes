@@ -26,6 +26,7 @@
     --tertiary-color: #eeeeee;
     --quaternary-color: #dbdbdb;
   }
+
 /* Table of Contents
  1. Title Bar
 
@@ -181,7 +182,8 @@
 
 .private-channel-call,
 .video-1FfuMD,
-.privateChannels-1nO12o .scrollerWrap-2lJEkd::after {
+.privateChannels-1nO12o .scrollerWrap-2lJEkd::after,
+#app-mount .streamPreview-2-WUWT {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -221,7 +223,8 @@
 /* 10. Games Tab & Discover */
 .activityFeed-28jde9,
 .root-26DmKJ,
-.activityFeed-1C0EmJ {
+.activityFeed-1C0EmJ,
+.stageSection-3mAD8V {
   background: var(--primary-color) !important;
 }
 
@@ -242,7 +245,6 @@
 .discoverHeader-1TWTqG {
   background-color: var(--quaternary-color);
 }
-
 
 
 /* 11. Popouts */

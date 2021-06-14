@@ -16,17 +16,16 @@
 }
 
   /* Dark Mode */
-    .appMount-3lHmkl {
-     --primary-color: rgba(0,0,0,var(--background-darkness));
-    }
+  .appMount-3lHmkl {
+    --primary-color: rgba(0,0,0,var(--background-darkness));
+  }
 
-    .theme-dark {
-     --primary-color: rgba(0,0,0,0.75);
-     --secondary-color: rgba(0,0,0,0.6);
-     --tertiary-color: rgba(0,0,0,0.4);
-      --quaternary-color: rgba(0,0,0,0.7);
-    }
-
+  .theme-dark {
+    --primary-color: rgba(0,0,0,0.75);
+    --secondary-color: rgba(0,0,0,0.6);
+    --tertiary-color: rgba(0,0,0,0.4);
+    --quaternary-color: rgba(0,0,0,0.7);
+  }
 
   /* Light Mode */
   .theme-light {
@@ -35,6 +34,7 @@
     --tertiary-color: rgba(0,0,0,0.2);
     --quaternary-color: rgba(0,0,0,0.5);
   }
+
 /* Table of Contents 
  ============== STATIC ===============
 1. Backgrund
@@ -147,14 +147,15 @@
   .channelTextArea-rNsIhG,
   #app-mount .container-1D34oG,
   .container-1taM1r,
-  .textContainer-C0szpm {
+  .textContainer-C0szpm,
+  .stageSection-3mAD8V {
   background: transparent !important;
   }
   
   .textContainer-C0szpm {
     border: none;
   }
-  
+
   #app-mount .footer-3rDWdC {
     box-shadow: none;
   }
@@ -183,7 +184,8 @@
   
   
   /* 3. Chat */
-  #app-mount .iconMask-3b8GzQ {
+  #app-mount .iconMask-3b8GzQ,
+  .preview-2nSL_2 {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
   
@@ -262,7 +264,8 @@
   .styleFlexible-wGDiIL,
   .submenu-2-ysNh,
   .previewContainer-1SS3uO,
-  .container-3XJ8ns {
+  .container-3XJ8ns,
+  #app-mount .streamPreview-2-WUWT {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
